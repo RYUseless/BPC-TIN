@@ -1,4 +1,4 @@
-package cvika06;
+package cviceni06;
 
 import java.util.HashMap;
 

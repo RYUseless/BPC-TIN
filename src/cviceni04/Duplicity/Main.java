@@ -1,4 +1,4 @@
-package cvika04.Duplicity;
+package cviceni04.Duplicity;
 
 import java.io.*;
 import java.util.Scanner;

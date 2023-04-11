@@ -1,4 +1,4 @@
-package cvika05.Strom;
+package cviceni05.Strom;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package cvika04.InformaceVPameti;
+package cviceni04.InformaceVPameti;
 
 public class Main {
     public static void main(String[] args) {

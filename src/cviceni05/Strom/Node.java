@@ -1,4 +1,4 @@
-package cvika05.Strom;
+package cviceni05.Strom;
 
 public class Node {
     private int data;
