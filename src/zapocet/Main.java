@@ -2,8 +2,10 @@ package zapocet;
 
 public class Main {
     public static void main(String[] args) {
-        MujList list = new MujList();
-        list.add(0);
+        //zadani:
+        // 0 = 5 = 9 = 2 = 0 = 1 = 5 = 7 (vsechny pozice maji taktez spojeni s hodnotou 0 )
+        // reverse: 7 = 5 = 1 = 0 = 2 = 9 = 5 = 0
+        MujList list = new MujList(0);
         list.add(5);
         list.add(9);
         list.add(2);
@@ -11,10 +13,10 @@ public class Main {
         list.add(1);
         list.add(5);
         list.add(7);
-        list.print(list,"Original"); //prvotni zobrazeni
-        //list.shuffle(list,"Shuffle"); //reverse zobrazeni
-        list.reverse(list);
-        list.print(list,"reverse"); //prvotni zobrazeni
+        //zobrazeni
+        list.print(list,"Original");
+        list.reverse(list); //reverse
+        list.print(list,"reverse");
 
     }
 }

@@ -5,6 +5,9 @@ public class MujList {
     private Uzel posledni; //posledni
     private Uzel rodic ; //rodicovska 0 nad listem
 
+    public MujList(int Data){
+        add(Data); //prvni je v tuto chvili null, takze by to melo hitnout druhy if
+    }
 
     public void add(int Data){ //add last
         if(rodic == null){
@@ -26,10 +29,10 @@ public class MujList {
     }
 
     public void reverse(MujList list){
+        System.out.print("\n");
         Uzel uzel = list.prvni; //zepredu
         Uzel uzlo = list.posledni; //zezadu
         int uzelValue;
-        System.out.println("\n");
 
         while(uzel != null && uzlo != null){
             System.out.println("Vyhledavani dvojic: "+uzel.getData() + " | "+uzlo.getData());
@@ -41,19 +44,6 @@ public class MujList {
             }
             uzlo = uzlo.getPrev();
             uzel = uzel.getNext();
-        }
-    }
-
-
-    public void shuffle(MujList list,String akce){ //reverse
-        Uzel uzlo = list.posledni;
-        System.out.println("\n" + "Akce listu je: "+akce + "\nList:");
-        System.out.println("Rodic je>:" + list.rodic.getData());
-        int counter= 1;
-        while (uzlo != null){
-            System.out.println("Cislo uzlu: "+ counter + " | Data: " +uzlo.getData());
-            uzlo = uzlo.getPrev();
-            counter++;
         }
     }
 
