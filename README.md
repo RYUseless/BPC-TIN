@@ -1,14 +1,22 @@
 # BPC-TIN
 > zde jsou všechny mnou vypracované cvika
-## Lectures:
+## Lectures I have done:
 - [First lecture](/src/cviceni01) </br>
-## How to use:
-+ in ``/src`` directory there are several packages, named as ``cviceniXX`` or ``cvikaXX``.
-+ Each package represents one lectures or project or anything how do you want to call it.
-+ Maybe i will put here even a semestral thingy (that is at the end of a semestr).
+- [Second lecture](/src/cviceni02) </br>
+- [Third lecture](/src/cviceni03) </br>
+- [Fourth lecture](/src/cviceni04) </br>
+- [Sixth lecture](/src/cviceni06) </br>
+- [eighth lecture](/src/cviceni08.ipynb) </br>
+- [Tenth lecture](/src/cviceni10) </br>
+- [Eleventh lecture](/src/cviceni11) </br>
+- [FinalTest-preparation](/src/ZapocetPriprava) </br>
+- [FinalTest](/src/zapocet) </br>
+
+## Things:
 > I did not tested if it is still working after the migration from one big repo that I had. <br>
 > have fun or smthn :)
 
+## Shrek:
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣄⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠟⠋⠙⠋⠉⠙⢷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
