@@ -1,5 +1,7 @@
 # BPC-TIN
 > zde jsou všechny mnou vypracované cvika
+## Lectures:
+- [First lecture](/src/cviceni01) </br>
 ## How to use:
 + in ``/src`` directory there are several packages, named as ``cviceniXX`` or ``cvikaXX``.
 + Each package represents one lectures or project or anything how do you want to call it.
